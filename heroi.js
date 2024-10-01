@@ -6,9 +6,9 @@ function classificarHeroi(nome, xp) {
         rank = 'Ferro';
     } else if (xp >= 1000 && xp <= 2000) {
         rank = 'Bronze';
-    } else if (xp > 2000 && xp <= 5000) {
+    } else if (xp > 2000 && xp <= 6000) {
         rank = 'Prata ';
-    } else if (xp > 6000 && xp <= 6000){
+    } else if (xp > 6000 && xp <= 7000){
         rank = 'Ouro'
     } else if (xp > 7000 && xp <= 8000) {
         rank = 'Platina Diamante';
@@ -20,7 +20,7 @@ function classificarHeroi(nome, xp) {
         rank = 'Radiante';
     }
 
-    console.log(`Herói: ${nome}, XP: ${xp}, Rank: ${rank}`);
+    console.log(`O Herói de nome ${nome} está no nível de ${rank}`);
 }
 
 classificarHeroi("Paullo", 5500);
